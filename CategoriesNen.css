@@ -1,0 +1,97 @@
+        /*Mise en place du bouton menu*/
+#menu
+{
+	background-size: cover;
+	position : absolute;
+	left: 40px;
+	top: 40px;
+}
+
+#menu p
+{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+    
+    /*Couleur arrière-plan*/
+body
+{
+    background-color: #DCDCDC;
+    background-image: url
+}
+    
+     /*Positionnement bande horizoantale*/
+#bande_horizontale
+{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    width: 100%;
+    height: 62px;
+    background-image: url(confetties.png);
+    } 
+
+    /*Positionnement et police du titre*/
+h1
+{
+    text-align: center;
+    font-size: 3em;
+    height: 60px;
+    font-family: "calibri";
+}
+
+    /*Mise en place du tableau, positionnement, couleur*/
+table 
+{
+    border:3px solid #6495ed;
+    border-collapse:collapse;
+    width: 96%;
+    margin:auto;
+}
+   
+    /*Couleur des cellules du tableau*/
+tbody 
+{
+    background-color:#FFFFFF;
+    border:1px solid #6495ed;
+}
+  
+    /*Lignes d'en-tête du tableau*/
+th 
+{
+    font-family:monospace;
+    border:1px dotted #6495ed;
+    padding:15px;
+    background-color:#EFF6FF;
+    width:20%;
+}
+
+    /*Cellules du tableau*/
+td 
+{
+    font-family:sans-serif;
+    font-size:80%;
+    border:1px solid #6495ed;
+    padding:10px;
+    text-align:justify;
+}
+    
+    /*Légende au dessus de l'image*/
+figcaption 
+{
+    color: #000000;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
+
+    /*Mise en place de l'image des différents Hatsu*/
+#hatsu
+{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+
+

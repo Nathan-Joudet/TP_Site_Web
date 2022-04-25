@@ -1,0 +1,56 @@
+  	/*Mise en place du bouton menu*/
+#menu
+{
+	background-size: cover;
+	position : absolute;
+	left: 40px;
+	top: 40px;
+}
+#menu p
+{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+ 
+ /*Couleur du fond d'écran*/
+body
+{
+	background-color:#DCDCDC
+}
+
+/*Positionnement bande horizontale*/
+#bande_horizontale
+{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	height: 62px;
+	background-color: rgb(71, 151, 39)
+} 
+
+/*Positionnement et police du titre*/
+h1
+{
+	text-align: center;
+	font-size : 3em;
+	height: 25px;
+	font-family: "calibri";
+}
+
+/*Alignement et bordure de la carte*/
+#carte
+{
+    text-align: center;
+	margin: 7px;
+	border: solid white;
+}
+
+/*Alignement et positionnement de la carte*/
+#carte1
+{
+    text-align: center;
+    margin: 10px;
+}
+
+

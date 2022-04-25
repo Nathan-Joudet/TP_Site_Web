@@ -1,0 +1,78 @@
+/*Mise en place de l'image de fond*/
+body
+{
+    background: url("images/FondSommaire3.png") no-repeat center center fixed; /* Mise en place du background*/
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*Positionnement image de fond*/
+img 
+{
+    margin-left: 0.65vw;
+    margin-top: 0.65vw;
+    width: 30vw;
+    height: 15vw;
+    margin-left: 2vw;
+
+}
+
+#liste /*Gestion de la liste*/
+{
+    color: green;
+    font-family: "calibri";
+    font-size: 2vw;
+    margin: 6%;
+    text-decoration: none;
+}
+
+a /*Couleurs et positionnement Titres*/
+{
+    -webkit-transition: color 0s;
+    transition: color 0s;
+    color: rgb(94, 230, 40);
+    text-decoration: none;
+    
+}
+a:hover /*Couleur au passage de la souris*/
+{
+    color: rgb(255, 94, 0);
+}
+
+
+    /*Positionnement du pied de page*/  
+#mentionslegales
+{
+   position: fixed;
+   left: 35vw;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-family: "calibri";
+   color: rgb(94, 230, 40); 
+}
+
+#confidentiel
+{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-family: "calibri"; 
+   color: rgb(94, 230, 40);
+}
+
+#contact
+{
+   position: fixed;
+   right: 35vw;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-family: "calibri"; 
+   color: rgb(94, 230, 40);
+}
+
